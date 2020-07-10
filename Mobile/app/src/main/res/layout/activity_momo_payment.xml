@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    tools:context=".Activities.MoMoPaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logomomo"
+            android:layout_marginBottom="20sp"/>
+        <!--<TextView android:layout_width="match_parent"
+            android:id="@+id/tvMerchantCode"
+            android:layout_height="wrap_content"
+            android:text="Merchant Code: #your_merchant_code "
+            android:textColor="#000"
+            android:textSize="18sp"/>
+        <TextView android:layout_width="match_parent"
+            android:id="@+id/tvMerchantName"
+            android:layout_height="wrap_content"
+            android:text="Merchant Name: #your_merchant_name"
+            android:textColor="#000"
+            android:textSize="18sp"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thành tiền :"/>
+
+        <TextView
+            android:id="@+id/edAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:text="1000000000 đ"/>
+
+        <TextView android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"
+            android:hint="Phản hồi"
+            />
+
+        <Button
+            android:id="@+id/btnPayMoMo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_through_momo"
+            style="@style/Btn_Style_Confirm" />
+    </LinearLayout>
+
+</RelativeLayout>

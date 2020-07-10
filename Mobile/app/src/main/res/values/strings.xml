@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">PhoneShop</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_dashboard">Danh mục</string>
+    <string name="title_notifications">Thông báo</string>
+    <string name="title_user_page">Trang cá nhân</string>
+    <string name="title_search_bar">Tìm kiếm</string>
+    <string name="title_activity_login">Đăng nhập</string>
+    <string name="name_button_signout">ĐĂNG XUẤT</string>
+    <string name="name_button_signin">ĐĂNG NHẬP</string>
+    <string name="title_user_detail">Thông tin chi tiết</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="personal">Cá nhân</string>
+    <string name="save_button_title">LƯU THAY ĐỔI</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="replace_new_password">Nhập lại mật khẩu mới</string>
+    <string name="titlte_product_detail">Chi tiết sản phẩm</string>
+    <string name="select_buy">Đã thêm vào giỏ hàng</string>
+    <string name="title_cart">Giỏ hàng</string>
+    <string name="title_list_product">Danh sách sản phẩm</string>
+    <string name="title_order">Tiến hành đặt hàng</string>
+    <string name="total">Thành tiền</string>
+    <string name="greeting">Chào bạn</string>
+    <string name="recommend">Hãy đăng nhập để sử dụng</string>
+    <string name="forgot_password">Quên mật khẩu ?</string>
+    <string name="tilte_signin">Đăng nhập</string>
+    <string name="or_sign_up_with">Đăng nhập với</string>
+    <string name="cart_cotains_this_item">"Giỏ hàng đã có sản phẩm này</string>
+    <string name="address">Địa chỉ</string>
+    <string name="hint_search_bar">Nhập sản phẩm bạn muốn tim kiếm</string>
+    <string name="microphone_title">Chatbot</string>
+
+    <string name="fullname">Họ tên</string>
+    <string name="phonenumber">Số điện thoại</string>
+    <string name="city">Tỉnh/Thành</string>
+    <string name="district">Quận/Huyện</string>
+    <string name="wards">Phường/Xã</string>
+    <string name="saveAddress">Lưu địa chỉ</string>
+
+    <string name="title_activity_chatbox">Chatbox</string>
+
+
+    <string name="view">View</string>
+
+    <string name="sample_title_default">Default view</string>
+    <string name="sample_subtitle_default">Dialogs and messages with default style</string>
+    <string name="sample_title_attrs">Styled view</string>
+    <string name="sample_subtitle_attrs">Styled components using embedded attributes</string>
+    <string name="sample_title_layout">Custom layout</string>
+    <string name="sample_subtitle_layout">Custom layouts to change default views position</string>
+    <string name="sample_title_holder">Custom view holder</string>
+    <string name="sample_subtitle_holder">Custom view holder to extend default behaviour for a new features</string>
+    <string name="sample_title_custom_content">Custom content type</string>
+    <string name="sample_subtitle_custom_content">Custom message content on the example of voice message</string>
+
+    <string name="hint_enter_a_message">Nhập tin nhắn...</string>
+    <string name="on_log_click_message">Your custom long click handler</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="copied_message">Message copied!</string>
+
+    <string name="date_header_today">Today</string>
+    <string name="date_header_yesterday">Yesterday</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Image (default)</item>
+        <item name="voice">Voice message (custom)</item>
+    </string-array>
+
+    <string name="start_typing_status">Start typing</string>
+    <string name="stop_typing_status">Stop typing</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something…</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+    <string name="address_detail">Địa chỉ</string>
+
+    <string name="payment_through_momo">"Thanh toán"</string>
+    <string name="mapping_through_momo">"Bắt đầu liên kết"</string>
+    <string name="link_momo">"Liên kết MoMo"</string>
+    <string name="payment_momo">"Thanh toán qua MoMo"</string>
+    <string name="not_receive_info">"Không nhận được thông tin"</string>
+    <string name="not_receive_info_err">"Không gởi được yêu cầu vui lòng kiểm tra lại"</string>
+
+
+</resources>

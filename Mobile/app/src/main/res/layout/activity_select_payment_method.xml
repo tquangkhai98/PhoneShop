@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Activities.SelectPaymentMethodActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/cash"
+                android:background="@drawable/rounded_corner_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/icons8_cash_64"
+                    android:drawableRight="@drawable/icon_forward"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:text="Thanh toán COD"
+                    android:textSize="25sp" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/momo"
+                android:background="@drawable/rounded_corner_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/logomomo_64"
+                    android:drawableRight="@drawable/icon_forward"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:text="Ví Momo"
+                    android:textColor="@color/momo_color"
+                    android:textSize="25sp" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/nganluong"
+                android:background="@drawable/rounded_corner_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/nganluonglogo_64"
+                    android:drawableRight="@drawable/icon_forward"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:text="Ngân lương"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="25sp" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
